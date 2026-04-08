@@ -1,5 +1,3 @@
-.git
-.gitignore
 target/
 .idea/
 *.iml
@@ -8,8 +6,9 @@ target/
 .env.*
 application-local.yaml
 application-LOCAL.yaml
-.github/
-*.md
-docs/
 key.json
-docker-compose.yml
+*.class
+*.jar
+*.war
+.DS_Store
+Thumbs.db
