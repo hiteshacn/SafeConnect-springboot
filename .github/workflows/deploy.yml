@@ -138,7 +138,7 @@ jobs:
             --max-instances=10 \
             --concurrency=200 \
             --timeout=60s \
-            --set-env-vars="SPRING_PROFILES_ACTIVE=prod,GCP_PROJECT_ID=safeconnect-492714,DB_URL=jdbc:postgresql://localhost/safeconnect,DB_USERNAME=safeconnect_user,DB_PASSWORD=changeme,MSG91_AUTH_KEY=your_msg91_key_here,REDIS_HOST=localhost"
+            --set-env-vars="SPRING_PROFILES_ACTIVE=default,GCP_PROJECT_ID=safeconnect-492714"
 
       # TODO: replace --set-env-vars with --set-secrets when Secret Manager is ready
 
