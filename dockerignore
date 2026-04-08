@@ -1,0 +1,15 @@
+.git
+.gitignore
+target/
+.idea/
+*.iml
+.vscode/
+.env
+.env.*
+application-LOCAL.yaml
+application-local.yaml
+*.local.yaml
+.github/
+*.md
+docs/
+key.json
