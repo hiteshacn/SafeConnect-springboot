@@ -134,8 +134,8 @@ jobs:
             --port=8080 \
             --memory=512Mi \
             --cpu=1 \
-            --min-instances=1 \
-            --max-instances=100 \
+            --min-instances=0 \
+            --max-instances=10 \
             --concurrency=200 \
             --timeout=60s \
             --set-env-vars="SPRING_PROFILES_ACTIVE=prod,GCP_PROJECT_ID=safeconnect-492714,DB_URL=jdbc:postgresql://localhost/safeconnect,DB_USERNAME=safeconnect_user,DB_PASSWORD=changeme,MSG91_AUTH_KEY=your_msg91_key_here,REDIS_HOST=localhost"
